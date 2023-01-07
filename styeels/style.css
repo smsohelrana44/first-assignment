@@ -2,6 +2,7 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+/* header section */
 .header-section {
   position: relative;
   display: flex;
@@ -35,8 +36,7 @@
   font-weight: 500;
   font-size: 20px;
 }
-.banner {
-}
+/* banner section */
 .banner-image {
   position: relative;
   width: 569px;
@@ -82,11 +82,14 @@ li:before {
   top: 2281.26px;
   color: #fff;
   padding: 20px;
+
   
 }
+/* My plans section */
 .plans-title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: large;
+  margin-bottom: 20px;
 }
 .my-plans {
   margin-top: 200px;
@@ -99,7 +102,7 @@ li:before {
 }
 .plans {
   margin-right: 80px;
-  font-weight: ;
+  
 }
 .main-section {
   position: absolute;
@@ -124,6 +127,36 @@ li:before {
   border-radius: 5px;
   border: none;
   color: rgb(246, 127, 8);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
+  
+}
+/* footer section */
+.main-footer{
+  margin: 0 230px;
+  background-color: #151414;
+  display: flex;
+  padding: 100px;
+  color: #fff;
+  line-height: 30px;
+  
+  
+}
+.footer-right{
+  line-height: 30px;
+  color: #fff;
+  margin-left: 100px;
+
+ 
+}
+.btn-sub{
+  margin-top: 20px;
+  color:#F15B22;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.icon{
+  margin-top: 10px;
+  
 }
