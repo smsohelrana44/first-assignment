@@ -42,11 +42,6 @@
   width: 569px;
   left: 206px;
   top: 100px;
-  background: rgba(241, 91, 34, 0.2);
-  
-  
-  
-  
 }
 .banner-title {
   position: absolute;
@@ -69,21 +64,66 @@
   margin-bottom: 15px;
   line-height: 25px;
   list-style: none;
+}
+li:before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  color: aqua;
+  margin-right: 5px;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  width: 459px;
+  height: 94px;
+  left: 294px;
+  top: 2281.26px;
+  color: #fff;
+  padding: 20px;
   
 }
-li:before{
-    content: "\f00c";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 700;
-    color: aqua;
-    margin-right: 5px;
+.plans-title {
+  font-weight: 700px;
+  font-size: large;
 }
-.my-plans{
-    margin-top: 200px;
-    text-align: center;
+.my-plans {
+  margin-top: 200px;
+  text-align: center;
 }
+.plans-container {
+  display: flex;
+  margin: 0 500px;
+  margin-top: 100px;
+}
+.plans {
+  margin-right: 80px;
+  font-weight: ;
+}
+.main-section {
+  position: absolute;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  
+}
+.gradiant {
+  position: relative;
+  margin-top: 50px;
 
-    
-   
-
-
+  width: 1200px;
+  left: 230px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 165px;
+}
+.call-now{
+  
+  padding: 20px;
+  background: #faf7f6;
+  border-radius: 5px;
+  border: none;
+  color: rgb(246, 127, 8);
+  font-weight: 500;
+  font-size: 20px;
+}
