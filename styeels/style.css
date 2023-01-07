@@ -4,6 +4,7 @@
 }
 .header-section {
   position: relative;
+  display: flex;
 }
 .nav-section {
   position: absolute;
@@ -12,9 +13,40 @@
   height: 78px;
   left: 876px;
   top: 468px;
+  top: 216px;
 }
 .nav-title {
   font-weight: 700;
   font-size: 65px;
   color: #151414;
+  text-align: right;
+}
+.nav-description {
+  text-align: right;
+  margin: 24px 0;
+}
+.btn-primary {
+  float: right;
+  padding: 20px;
+  background: #f15b22;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.banner {
+}
+.banner-image {
+  position: relative;
+  width: 569px;
+  left: 206px;
+  top: 100px;
+}
+.banner-title {
+  position: absolute;
+  width: 402px;
+  height: 468px;
+  left: 876px;
+  top: 1178px;
 }
