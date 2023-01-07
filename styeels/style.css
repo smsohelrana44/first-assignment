@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header-section {
+  position: relative;
+}
+.nav-section {
+  position: absolute;
+
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 468px;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #151414;
+}
