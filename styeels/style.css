@@ -121,7 +121,7 @@ li:before {
   line-height: 165px;
 }
 .call-now{
-  
+  position: relative;
   padding: 20px;
   background: #faf7f6;
   border-radius: 5px;
@@ -129,6 +129,7 @@ li:before {
   color: rgb(246, 127, 8);
   font-weight: 700;
   font-size: 20px;
+  left: 30px;
   
 }
 /* footer section */
