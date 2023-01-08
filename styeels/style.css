@@ -87,7 +87,8 @@ li:before {
 }
 /* My plans section */
 .section-title{
- 
+ position: relative;
+ left: 100px;
 }
 .plans-title {
   font-weight: 700;
